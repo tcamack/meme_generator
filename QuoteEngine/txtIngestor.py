@@ -18,7 +18,7 @@ class txtIngestor(IngestorInterface):
 
         quotes = []
 
-        with open(path, 'r') as infile:
+        with open(path, 'r', encoding='utf-8-sig') as infile:
             for line in infile:
                 body = line.split(' - ')[0].strip().strip('"')
                 author = line.split(' - ')[1].strip()

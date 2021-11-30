@@ -49,5 +49,4 @@ class MemeEngine:
             print('Invalid image file path.')
             pass
 
-
         return out_path
