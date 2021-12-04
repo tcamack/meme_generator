@@ -1,9 +1,8 @@
 # Meme Generator
 
- Image creation tool to randomly generate memes based on input from four separate file types or user input.
- 
- Final output is .png file with text overlayed on image.
+Image creation tool to randomly generate memes based on input from four separate file types or user input.
 
+Final output is .png file with text overlayed on image.
 
 
 ## Installation
@@ -39,7 +38,6 @@ Navigate to http://127.0.0.1:5000/ in a web browser.
 
 ## Output
 
-###
 All generated images are saved in the `~\static` directory that is created upon first launch.
 
 
